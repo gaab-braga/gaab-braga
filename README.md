@@ -1,6 +1,4 @@
-# Olá! Eu sou o Gabriel, Cientista de Dados.
-
-Aqui é onde eu guardo meus principais projetos para portfólio.
+## Olá! Aqui é onde eu guardo meus principais projetos para portfólio.
 
 <div align="center">
   <a href="https://github.com/gaab-braga">
