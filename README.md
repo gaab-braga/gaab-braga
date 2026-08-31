@@ -1,50 +1,41 @@
-# Gabriel Braga
+<h1 align="center">Gabriel Braga</h1>
 
-**Data science aplicada a finanças e operações de empresas brasileiras** — do fechamento contábil a modelos de machine learning em produção.
+<p align="center">Data science aplicada a finanças e operações — do fechamento contábil ao modelo em produção.</p>
 
-Trabalho na interseção entre dados e negócio: FP&A e análise de DREs, detecção de fraude, people analytics e agentes de IA generativa. Meu foco é o ciclo completo — dados, modelo, validação, deploy — com o resultado explicado na língua de quem decide.
-
-📫 [LinkedIn](https://www.linkedin.com/in/gabrielfebraga) · [gafebraga@gmail.com](mailto:gafebraga@gmail.com) · [Instagram](https://www.instagram.com/gaab.braga/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabrielfebraga"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMDA3NmIyIiBkPSJNMTE2IDNIMTJhOC45MSA4LjkxIDAgMDAtOSA4Ljh2MTA0LjQyYTguOTEgOC45MSAwIDAwOSA4Ljc4aDEwNGE4LjkzIDguOTMgMCAwMDktOC44MVYxMS43N0E4LjkzIDguOTMgMCAwMDExNiAzeiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMS4wNiA0OC43M2gxOC4xMVYxMDdIMjEuMDZ6bTkuMDYtMjlhMTAuNSAxMC41IDAgMTEtMTAuNSAxMC40OSAxMC41IDEwLjUgMCAwMTEwLjUtMTAuNDlNNTAuNTMgNDguNzNoMTcuMzZ2OGguMjRjMi40Mi00LjU4IDguMzItOS40MSAxNy4xMy05LjQxQzEwMy42IDQ3LjI4IDEwNyA1OS4zNSAxMDcgNzV2MzJIODguODlWNzguNjVjMC02Ljc1LS4xMi0xNS40NC05LjQxLTE1LjQ0cy0xMC44NyA3LjM2LTEwLjg3IDE1VjEwN0g1MC41M3oiLz48L3N2Zz4%3D" alt="LinkedIn"/></a>
+  <a href="mailto:gafebraga@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://www.instagram.com/gaab.braga/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
 
 ---
 
 ## Projetos em destaque
 
-### concept_fpa — plataforma de FP&A 🔒 *(repositório privado)*
+### concept_fpa · plataforma de FP&A 🔒 <sub>*repositório privado*</sub>
 
-Plataforma de análise financeira para uma média empresa brasileira: consolida os dados de fechamento e transforma DREs em visões gerenciais navegáveis, apoiando o ciclo mensal de planejamento e análise financeira.
+Consolida o fechamento financeiro de uma média empresa brasileira e transforma DREs em visões gerenciais navegáveis para o ciclo mensal de planejamento.
+<sub>Python · Pandas · visualização interativa</sub>
 
-*Python · Pandas · visualização interativa*
+### [AML-Ops-Engine](https://github.com/gaab-braga/AML-Ops-Engine) · detecção de lavagem de dinheiro
 
-### [AML-Ops-Engine](https://github.com/gaab-braga/AML-Ops-Engine) — detecção de lavagem de dinheiro
+ML sobre 5M+ transações (0,12% de fraude): **95,6% ROC-AUC**, 1,3% de falsos positivos e F1 235× o benchmark de GNN da IBM — com validação temporal, testes e Docker.
+<sub>XGBoost · Optuna · SHAP · Polars · Docker · Pytest</sub>
 
-**Problema:** identificar fraude em mais de 5 milhões de transações com apenas 0,12% de casos positivos.
-**Abordagem:** XGBoost com feature engineering e validação temporal, otimização com Optuna, explicabilidade com SHAP; empacotado com Docker, 37 testes automatizados e 85% de cobertura.
-**Resultado:** 95,6% ROC-AUC — captura 87% das fraudes com 1,3% de falsos positivos, F1 235× superior ao benchmark de GNN da IBM e inferência abaixo de 50ms.
+### [mds-agent-partner](https://github.com/gaab-braga/mds-agent-partner) · agente de análise de dados
 
-*Python · XGBoost · LightGBM · Optuna · SHAP · Polars · Docker · Pytest*
+Sistema multi-agente que planeja, executa e narra análises de marketing a partir de um CSV e uma pergunta em português. [▶️ Demo (6 min)](https://www.youtube.com/watch?v=8IW4VXle3JQ)
+<sub>Gemini · Vertex AI · Google ADK · Chainlit · Plotly</sub>
 
-### [mds-agent-partner](https://github.com/gaab-braga/mds-agent-partner) — agente de análise de dados
+### [Turnover-Analysis](https://github.com/gaab-braga/Turnover-Analysis) · people analytics
 
-**Problema:** a maioria das PMEs brasileiras decide marketing sem análise de dados — contratar um cientista de dados sênior custa dezenas de milhares de reais por mês.
-**Abordagem:** sistema multi-agente (Planner → Executor → Evaluator → Responder) com Gemini 2.0 Flash e Google ADK, interface Chainlit e deploy no Vertex AI Agent Engine.
-**Resultado:** análises com narrativa de negócio geradas de ponta a ponta a partir de um CSV e uma pergunta em português. [▶️ Demo em vídeo (6 min)](https://www.youtube.com/watch?v=8IW4VXle3JQ)
+Diagnóstico de turnover em três camadas — impacto financeiro, ML explicável e análise de sobrevivência — priorizando retenção por risco e contribuição.
+<sub>scikit-learn · SHAP · lifelines · Power BI</sub>
 
-*Python · Gemini · Vertex AI · Google ADK · Chainlit · Plotly*
+### [case-wiz](https://github.com/gaab-braga/case-wiz) · pipeline de dados de DRE
 
-### [Turnover-Analysis](https://github.com/gaab-braga/Turnover-Analysis) — people analytics
-
-**Problema:** o RH tratava turnover como um número isolado; faltava entender quem estava saindo e por quê.
-**Abordagem:** análise em três camadas — impacto financeiro, diagnóstico com ML explicável (SHAP) e análise de sobrevivência (lifelines) — com base preparada para consumo em Power BI.
-**Resultado:** a discussão migrou de "perdemos pessoas" para "estamos perdendo a parte errada da força de trabalho?", com priorização de retenção por risco e contribuição.
-
-*Python · scikit-learn · SHAP · lifelines · Seaborn · Power BI*
-
-### [case-wiz](https://github.com/gaab-braga/case-wiz) — pipeline de dados de DRE
-
-Pipeline financeiro de ponta a ponta: ingestão e tratamento com Pandas, persistência em PostgreSQL via SQLAlchemy, API com FastAPI e ambiente conteinerizado com testes.
-
-*Python · Pandas · PostgreSQL · SQLAlchemy · FastAPI · Docker*
+Pipeline financeiro de ponta a ponta: tratamento com Pandas, PostgreSQL, API FastAPI e ambiente conteinerizado com testes.
+<sub>Pandas · PostgreSQL · SQLAlchemy · FastAPI · Docker</sub>
 
 ---
 
@@ -52,7 +43,5 @@ Pipeline financeiro de ponta a ponta: ingestão e tratamento com Pandas, persist
 
 - **Análise e ML:** Python (Pandas, NumPy, Polars, scikit-learn), XGBoost, LightGBM, Optuna, SHAP
 - **Visualização e BI:** Plotly, Matplotlib, Seaborn, Streamlit, Power BI, Excel/VBA
-- **Engenharia:** SQL/PostgreSQL, FastAPI, SQLAlchemy, Docker, Pytest, GitHub Actions
+- **Engenharia:** SQL/PostgreSQL, FastAPI, Docker, Pytest, GitHub Actions
 - **IA generativa:** Gemini, Vertex AI, Google ADK
-
-Formação complementar: Machine Learning e Deep Learning Specializations (Coursera).
