@@ -12,10 +12,6 @@
 
 ## Projetos em destaque
 
-### concept_fpa · plataforma de FP&A 🔒 <sub>*repositório privado*</sub>
-
-Consolida o fechamento financeiro de uma média empresa brasileira e transforma DREs em visões gerenciais navegáveis para o ciclo mensal de planejamento.
-<sub>Python · Pandas · visualização interativa</sub>
 
 ### [AML-Ops-Engine](https://github.com/gaab-braga/AML-Ops-Engine) · detecção de lavagem de dinheiro
 
